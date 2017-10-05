@@ -12,6 +12,10 @@ use app\models\BlogIndexModel\BlogElasticSearchEntityInterface;
 use common\models\repository\ItemElasticSearch\BlogElasticSearchRepositoryInterface;
 use yii\elasticsearch\ActiveRecord;
 
+/**
+ * Class SearchService
+ * @package common\services\SearchService
+ */
 class SearchService implements SearchServiceInterface
 {
     /**
