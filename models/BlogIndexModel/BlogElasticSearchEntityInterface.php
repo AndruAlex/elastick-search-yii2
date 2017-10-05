@@ -10,6 +10,10 @@ namespace app\models\BlogIndexModel;
 
 use yii\base\Exception;
 
+/**
+ * Interface BlogElasticSearchEntityInterface
+ * @package app\models\BlogIndexModel
+ */
 interface BlogElasticSearchEntityInterface
 {
 
